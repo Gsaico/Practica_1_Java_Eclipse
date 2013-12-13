@@ -1,0 +1,15 @@
+Scanner reader1 = new Scanner(System.in);
+		System.out.println("Ingrese el Numero: ");
+		double v_numerox = reader1.nextDouble();
+		
+		
+		
+		int v_entero= (int)v_numerox;
+		 
+		double v_decimal= v_numerox - v_entero;
+		
+				
+		if (v_decimal>0)
+			System.out.println("es decimal");
+		else
+			System.out.println("es entero");
