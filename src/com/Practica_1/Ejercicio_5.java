@@ -52,7 +52,8 @@ public class Ejercicio_5 {
 		} else
 			System.out
 					.println("El numero debe ser mayor  o igual a uno parac calcular el factorial.");
-
+System.out
+					.println("El numero debe ser mayor  o igual a uno parac calcular el factorial.");
 	}
 
 	public static boolean isNumeric(String str) {
